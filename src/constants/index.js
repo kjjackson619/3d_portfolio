@@ -42,8 +42,12 @@ export const navLinks = [
 
 const services = [
     {
-        title: "Web Developer",
+        title: "Full Stack Web Developer",
         icon: web,
+    },
+    {
+        title: "JavaScript Creator",
+        icon: javascript,
     },
     {
         title: "React Native Developer",
@@ -53,10 +57,7 @@ const services = [
         title: "Backend Developer",
         icon: backend,
     },
-    {
-        title: "Content Creator",
-        icon: creator,
-    },
+
 ];
 
 const technologies = [
@@ -73,17 +74,17 @@ const technologies = [
         icon: javascript,
     },
     {
-        name: "TypeScript",
-        icon: typescript,
-    },
-    {
         name: "React JS",
         icon: reactjs,
     },
-    {
-        name: "Redux Toolkit",
-        icon: redux,
-    },
+    // {
+    //     name: "Express JS",
+    //     icon: express,
+    // },
+    // {
+    //     name: "Materialize",
+    //     icon: materialize,
+    // },
     {
         name: "Tailwind CSS",
         icon: tailwind,
@@ -103,14 +104,6 @@ const technologies = [
     {
         name: "git",
         icon: git,
-    },
-    {
-        name: "figma",
-        icon: figma,
-    },
-    {
-        name: "docker",
-        icon: docker,
     },
 ];
 
