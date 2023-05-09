@@ -1,20 +1,13 @@
 import {
-    mobile,
     backend,
-    creator,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
     mongodb,
-    git,
-    figma,
-    docker,
     meta,
     starbucks,
     tesla,
@@ -23,6 +16,11 @@ import {
     jobit,
     tripguide,
     threejs,
+    tedTalk,
+    comingSoon,
+    github,
+    express,
+    materialize,
 } from "../assets";
 
 export const navLinks = [
@@ -46,12 +44,12 @@ const services = [
         icon: web,
     },
     {
-        title: "JavaScript Creator",
+        title: "JavaScript Developer",
         icon: javascript,
     },
     {
-        title: "React Native Developer",
-        icon: mobile,
+        title: "React Developer",
+        icon: reactjs,
     },
     {
         title: "Backend Developer",
@@ -77,14 +75,14 @@ const technologies = [
         name: "React JS",
         icon: reactjs,
     },
-    // {
-    //     name: "Express JS",
-    //     icon: express,
-    // },
-    // {
-    //     name: "Materialize",
-    //     icon: materialize,
-    // },
+    {
+        name: "Express JS",
+        icon: express,
+    },
+    {
+        name: "Materialize",
+        icon: materialize,
+    },
     {
         name: "Tailwind CSS",
         icon: tailwind,
@@ -102,8 +100,8 @@ const technologies = [
         icon: threejs,
     },
     {
-        name: "git",
-        icon: git,
+        name: "github",
+        icon: github,
     },
 ];
 
@@ -165,27 +163,27 @@ const experiences = [
 const testimonials = [
     {
         testimonial:
-            "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-        name: "Sara Lee",
-        designation: "CFO",
-        company: "Acme Co",
-        image: "https://randomuser.me/api/portraits/women/4.jpg",
+            "Endorses Kevin Jackson as a Full Stack Web Developer.",
+        name: "Judy Cook",
+        designation: "Programming Expert",
+        company: "TED",
+        image: tedTalk,
     },
     {
         testimonial:
-            "I've never met a web developer who truly cares about their clients' success like Rick does.",
-        name: "Chris Brown",
-        designation: "COO",
-        company: "DEF Corp",
-        image: "https://randomuser.me/api/portraits/men/5.jpg",
+            "Pending!",
+        name: "...",
+        designation: "...",
+        company: "...",
+        image: comingSoon,
     },
     {
         testimonial:
-            "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-        name: "Lisa Wang",
-        designation: "CTO",
-        company: "456 Enterprises",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
+            "Pending!",
+        name: "...",
+        designation: "...",
+        company: "...",
+        image: comingSoon,
     },
 ];
 

@@ -35,14 +35,16 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        This will be my about me section.
+        I am a highly motivated individual with a strong desire to learn and grow in the field of software development. My curiousity for problem solving are what drew me to the world of coding in the first place. Since, I have dedicated myself to mastering the craft. <br />
+        <br />
+        I have honed my skills through countless hours of practice, constantly seeking out new challenges and opportunites to improve. I take pride in delivering high-quality code that meets the needs of my users. Above all, I am striving to use technology to make a positive impact.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
