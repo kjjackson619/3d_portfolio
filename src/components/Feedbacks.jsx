@@ -51,7 +51,7 @@ const Feedbacks = () => {
       </div>
       <div className={`${styles.paddingX} -mt-10 pb-14 flex flex-wrap gap-7`}>
         {testimonials.map((testimonial, index) => (
-          <FeedbackCard
+          <FeedbackCard 
             key={testimonial.name}
             index={index}
             {...testimonial}

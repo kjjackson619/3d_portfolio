@@ -8,10 +8,6 @@ import {
     tailwind,
     nodejs,
     mongodb,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
     carrent,
     jobit,
     tripguide,
@@ -21,6 +17,9 @@ import {
     github,
     express,
     materialize,
+    osu,
+    expeditors,
+    fairchild,
 } from "../assets";
 
 export const navLinks = [
@@ -107,55 +106,56 @@ const technologies = [
 
 const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#383E56",
-        date: "March 2020 - April 2021",
+        title: " Bachelor's Degree of Arts in Sociology",
+        company_name: "Ohio State University",
+        icon: osu,
+        iconBg: "#fff",
+        date: "August 2013 - December 2017",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "",
+            "",
+            "",
+            "",
+        ],
+    }, 
+    {
+        title: "Ocean Import Agent",
+        company_name: "Expeditors",
+        icon: expeditors,
+        iconBg: "#fff",
+        date: "August 2018 - September 2022",
+        points: [
+            "",
+            "",
+            "",
+            "",
+        ],
+    },
+
+    {
+        title: "Full Stack Web Developer Certificate",
+        company_name: "Ohio State University",
+        icon: osu,
+        iconBg: "#fff",
+        date: "October 2021 - April 2022",
+        points: [
+            "",
+            "",
+            "",
+            "",
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
+        title: "Capacity Manager",
+        company_name: "Fairchild Freight LLC",
+        icon: fairchild,
+        iconBg: "#fff",
+        date: "September 2022 - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "",
+            "",
+            "",
+            "",
         ],
     },
 ];
@@ -189,58 +189,58 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Three.js Shirt Customizer w/ DALLE AI",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "",
         tags: [
             {
                 name: "react",
                 color: "blue-text-gradient",
+            },
+            {
+                name: "three.js",
+                color: "green-text-gradient",
+            },
+            {
+                name: "openai",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: {},
+        source_code_link: "https://github.com/kjjackson619/three-js-site",
+    },
+    {
+        name: "AI Image Generator",
+        description:
+            "",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "openai",
+                color: "green-text-gradient",
             },
             {
                 name: "mongodb",
-                color: "green-text-gradient",
-            },
-            {
-                name: "tailwind",
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
+        image: {},
+        source_code_link: "https://github.com/kjjackson619/ai_image_generator",
     },
     {
-        name: "Job IT",
+        name: "",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "",
         tags: [
             {
                 name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
-                color: "green-text-gradient",
-            },
-            {
-                name: "scss",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: jobit,
-        source_code_link: "https://github.com/",
-    },
-    {
-        name: "Trip Guide",
-        description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-        tags: [
-            {
-                name: "nextjs",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "supabase",
+                name: "html",
                 color: "green-text-gradient",
             },
             {
@@ -248,7 +248,7 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
+        image: {},
         source_code_link: "https://github.com/",
     },
 ];

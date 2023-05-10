@@ -16,10 +16,9 @@ import threejs from "./tech/threejs.svg";
 import express from './tech/express.png';
 import materialize from './tech/materialize.png';
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import osu from './company/osu.png';
+import expeditors from './company/expeditors.png';
+import fairchild from './company/fairchild.png';
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -40,10 +39,6 @@ export {
   nodejs,
   mongodb,
   github,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
@@ -53,4 +48,7 @@ export {
   comingSoon,
   express,
   materialize,
+  osu,
+  expeditors,
+  fairchild,
 };
