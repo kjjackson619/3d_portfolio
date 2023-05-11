@@ -19,12 +19,9 @@ import materialize from './tech/materialize.png';
 import osu from './company/osu.png';
 import expeditors from './company/expeditors.png';
 import fairchild from './company/fairchild.png';
-
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 import tedTalk from "./company/tedtalk.png";
 import comingSoon from "./company/comingsoon.png";
+import shirt from '../assets/shirt.png';
 
 export {
   backend,
@@ -39,9 +36,6 @@ export {
   nodejs,
   mongodb,
   github,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   logo,
   tedTalk,
@@ -51,4 +45,5 @@ export {
   osu,
   expeditors,
   fairchild,
+  shirt,
 };
