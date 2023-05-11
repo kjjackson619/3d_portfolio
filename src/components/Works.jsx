@@ -65,7 +65,7 @@ const Works = () => {
           My work
         </p>
         <h2 className={styles.sectionHeadText}>
-          Projects.
+          Projects
         </h2>
       </motion.div>
 
@@ -73,7 +73,7 @@ const Works = () => {
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]">
-          Talk about my projects here.
+          Here are several projects that signify the dedication to perfecting this craft that I have. They're also really cool to play around with! 
         </motion.p>
       </div>
 

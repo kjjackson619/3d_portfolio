@@ -245,6 +245,73 @@ const projects = [
         image: {},
         source_code_link: "https://github.com/",
     },
+    {
+        name: "",
+        description:
+            "",
+        tags: [
+            {
+                name: "mongodb",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "express",
+                color: "green-text-gradient",
+            },
+            {
+                name: "node",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+        ],
+        image: {},
+        source_code_link: "https://github.com/",
+    },
+    {
+        name: "",
+        description:
+            "",
+        tags: [
+            {
+                name: "html",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "css",
+                color: "green-text-gradient",
+            },
+            {
+                name: "javascript",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: {},
+        source_code_link: "https://github.com/",
+    },
+    {
+        name: "",
+        description:
+            "",
+        tags: [
+            {
+                name: "html",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "css",
+                color: "green-text-gradient",
+            },
+            {
+                name: "react",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: {},
+        source_code_link: "https://github.com/",
+    },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
