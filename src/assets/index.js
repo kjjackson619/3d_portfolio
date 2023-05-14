@@ -15,6 +15,7 @@ import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
 import express from './tech/express.png';
 import materialize from './tech/materialize.png';
+import mySQL from '../assets/tech/mySQL.png';
 
 import osu from './company/osu.png';
 import expeditors from './company/expeditors.png';
@@ -22,6 +23,12 @@ import fairchild from './company/fairchild.png';
 import tedTalk from "./company/tedtalk.png";
 import comingSoon from "./company/comingsoon.png";
 import shirt from '../assets/shirt.png';
+import aiImage from '../assets/aiImage.png';
+import shop from '../assets/shop.png';
+import book from '../assets/book.png';
+import pinIt from '../assets/pinIt.png';
+import pizza from '../assets/pizza.png';
+
 
 export {
   backend,
@@ -46,4 +53,10 @@ export {
   expeditors,
   fairchild,
   shirt,
+  aiImage,
+  shop,
+  book,
+  pinIt,
+  pizza,
+  mySQL,
 };

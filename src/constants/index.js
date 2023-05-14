@@ -1,3 +1,4 @@
+
 import {
     backend,
     web,
@@ -18,6 +19,12 @@ import {
     expeditors,
     fairchild,
     shirt,
+    aiImage,
+    shop,
+    book,
+    pinIt,
+    pizza,
+    mySQL,
 } from "../assets";
 
 export const navLinks = [
@@ -99,6 +106,10 @@ const technologies = [
     {
         name: "github",
         icon: github,
+    },
+    {
+        name: "mySQL",
+        icon: mySQL,
     },
 ];
 
@@ -185,7 +196,7 @@ const projects = [
     {
         name: "Three.js Shirt Customizer w/ DALLE AI",
         description:
-            "",
+            "User can customize a 3D shirt model powered by three.js. Change color of shirt from hundreds of options via full color pallette, add a personal logo from your photos, or use the interactive AI interface to create a logo or pattern for you!",
         tags: [
             {
                 name: "react",
@@ -199,6 +210,10 @@ const projects = [
                 name: "openai",
                 color: "pink-text-gradient",
             },
+            {
+                name: "node",
+                color: "blue-text-gradient",
+            },
         ],
         image: shirt,
         source_code_link: "https://github.com/kjjackson619/three-js-site",
@@ -206,7 +221,7 @@ const projects = [
     {
         name: "AI Image Generator",
         description:
-            "",
+            "Utilize powerful AI image rendering to create a collection of digitally generated images to share with your peers!",
         tags: [
             {
                 name: "react",
@@ -220,35 +235,51 @@ const projects = [
                 name: "mongodb",
                 color: "pink-text-gradient",
             },
+            {
+                name: "node",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "express",
+                color: "green-text-gradient",
+            },
         ],
-        image: {},
+        image: aiImage,
         source_code_link: "https://github.com/kjjackson619/ai_image_generator",
     },
     {
-        name: "",
+        name: "Shirt Shop LLC",
         description:
-            "",
+            "The Shirt Store LLC is a one stop shop for all shirt needs whether it be from heavy to light weight, we got you covered!",
         tags: [
             {
                 name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "html",
+                name: "mongodb",
                 color: "green-text-gradient",
             },
             {
-                name: "css",
+                name: "node",
                 color: "pink-text-gradient",
             },
+            {
+                name: "express",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "graphql",
+                color: "green-text-gradient",
+            },
         ],
-        image: {},
-        source_code_link: "https://github.com/",
+        image: shop,
+        source_code_link: "https://github.com/kjjackson619/project-03",
     },
     {
-        name: "",
+        name: "Book Search Engine",
         description:
-            "",
+            "Avid readers can search and discover new books to add to their reading collection. User can keep an ongoing list of books to purchase or rent in the future!",
         tags: [
             {
                 name: "mongodb",
@@ -267,13 +298,46 @@ const projects = [
                 color: "blue-text-gradient",
             },
         ],
-        image: {},
-        source_code_link: "https://github.com/",
+        image: book,
+        source_code_link: "https://github.com/kjjackson619/book-search-engine",
     },
     {
-        name: "",
+        name: "PIN IT!",
         description:
-            "",
+            "PIN IT is an idea board where users can store a collection of ideas to get inspiration for their next big project!",
+        tags: [
+            {
+                name: "html",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "css",
+                color: "green-text-gradient",
+            },
+            {
+                name: "javascript",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "node",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "mySQL",
+                color: "green-text-gradient",
+            },
+            {
+                name: "express",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: pinIt,
+        source_code_link: "https://github.com/kjjackson619/project-02",
+    },
+    {
+        name: "Project Pizza",
+        description:
+            "With our user-friendly and intuitive design, locating that perfect slice has never been easier! Ever wanted a filter specifically for pizza? We have you covered!",
         tags: [
             {
                 name: "html",
@@ -288,29 +352,8 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: {},
-        source_code_link: "https://github.com/",
-    },
-    {
-        name: "",
-        description:
-            "",
-        tags: [
-            {
-                name: "html",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "css",
-                color: "green-text-gradient",
-            },
-            {
-                name: "react",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: {},
-        source_code_link: "https://github.com/",
+        image: pizza,
+        source_code_link: "https://github.com/YourFunkyDad/project-pizza",
     },
 ];
 
