@@ -174,22 +174,6 @@ const testimonials = [
         company: "TED",
         image: tedTalk,
     },
-    {
-        testimonial:
-            "Pending!",
-        name: "...",
-        designation: "...",
-        company: "...",
-        image: comingSoon,
-    },
-    {
-        testimonial:
-            "Pending!",
-        name: "...",
-        designation: "...",
-        company: "...",
-        image: comingSoon,
-    },
 ];
 
 const projects = [
