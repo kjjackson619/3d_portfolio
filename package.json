@@ -6,8 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "watch": "watch 'npm run build' /Users/kevinjackson/desktop/projects/3d_portfolio"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
@@ -21,7 +20,6 @@
     "react-tilt": "^0.1.4",
     "react-vertical-timeline-component": "^3.6.0",
     "three": "^0.150.1",
-    "watch": "^1.0.2",
     "webpack": "^5.82.1"
   },
   "devDependencies": {

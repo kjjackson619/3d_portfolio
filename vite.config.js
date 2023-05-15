@@ -1,9 +1,14 @@
 import { defineConfig } from 'vite'
+import React from 'react';
+import {resolve} from 'path';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
+  plugins: [React()],
   build: {
+    lib: {
+      entry: resolve(__dirname, 'lib/main.jsx'),
+    },
     rollupOptions: {
       output: {
         "format": "esm",
@@ -18,5 +23,5 @@ export default defineConfig({
       '.json',
     ],
   },
-  base: './',
+  base: './dist',
 })
