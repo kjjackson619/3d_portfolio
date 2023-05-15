@@ -1,7 +1,7 @@
-import { defineConfig } from 'vite'
-import React from 'react';
+import { defineConfig } from 'vite';
+import react from 'react';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [React()],
+  plugins: [react()],
 })
