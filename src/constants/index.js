@@ -131,9 +131,9 @@ const experiences = [
         iconBg: "#fff",
         date: "August 2018 - September 2022",
         points: [
-            "Utilized time management skills and organization to coordinate the shipment delivery for 20-40 shipments per day.",
-            "Worked within 4-6 TMS systems daily and showcased the ability to migrate different programs and learn the nuances quickly.",
-            "Worked and communicated well within a team of 7 to provide maximum client satisfaction.",
+            "Coordinated the delivery of 40 shipments per day utilizing diligent time management and organizational skills.",
+            "Managed 6 TMS systems daily showcasing the ability to migrate different programs and learn their nuances quickly.",
+            "Effectively communicated with a team of 7 to provide maximum client satisfaction through dedicated team work.",
         ],
     },
 
@@ -144,8 +144,8 @@ const experiences = [
         iconBg: "#fff",
         date: "October 2021 - April 2022",
         points: [
-            "Graduated after going back to school with a certificate in Full Stack Web Development.",
-            "Also completed program at The Ohio State University and finished program with a 4.0 GPA.",
+            "Graduated after going back to school with a certificate in Full Stack Web Development from the OSU College of Engineering.",
+            "Finished program with a 4.0 GPA.",
         ],
     },
     {
@@ -155,12 +155,12 @@ const experiences = [
         iconBg: "#fff",
         date: "September 2022 - Present",
         points: [
-            "Oversee operations on 7 different customer accounts to ensure efficient and timely shipment delivery for roughly 40-60 loads per week.",
-            "Work with a team of 4 to ensure the branch operations and expectations are completed and met in a timely efficient manner.",
+            "Oversee operations on 7 different client accounts to ensure efficient and timely shipment delivery for 60 loads per week.",
+            "Work within a team of 4 to ensure the branch operations and deadlines are completed in a timely efficient manner.",
             "Communicate daily within the organization as well as with customers to ensure regular updates on statuses and progress.",
             "Sales skills and the ability to negotiate as well as maximize market value.",
-            "Promoted to management role with first 3 months of employment for work ethic.",
-            "Nominated for April Employee of the Month for exemplory service and diligent problem solving skills."
+            "Promoted to management role within first 3 months of employment for work ethic, problem solving, and exemplary service.",
+            "April Employee of the Month 2023"
         ],
     },
 ];
@@ -180,7 +180,7 @@ const projects = [
     {
         name: "Three.js Shirt Customizer w/ DALLE AI",
         description:
-            "User can customize a 3D shirt model powered by three.js. Change color of shirt from hundreds of options via full color pallette, add a personal logo from your photos, or use the interactive AI interface to create a logo or pattern for you!",
+            "User can customize a 3D shirt model powered by three.js. Change color of shirt from hundreds of options via full color palette, add a personal logo from your desktop, or use the interactive AI interface to create a logo or pattern for you!",
         tags: [
             {
                 name: "react",
@@ -234,7 +234,7 @@ const projects = [
     {
         name: "Shirt Shop LLC",
         description:
-            "The Shirt Store LLC is a one stop shop for all shirt needs whether it be from heavy to light weight, we got you covered!",
+            "The Shirt Shop LLC is a one stop shop for all shirt needs whether it be from heavy to light weight, we got you covered!",
         tags: [
             {
                 name: "react",
@@ -263,7 +263,7 @@ const projects = [
     {
         name: "Book Search Engine",
         description:
-            "Avid readers can search and discover new books to add to their reading collection. User can keep an ongoing list of books to purchase or rent in the future!",
+            "Avid readers can search and discover new books to add to their reading collection. User can keep an ongoing list of book ideas to purchase or rent in the future!",
         tags: [
             {
                 name: "mongodb",
