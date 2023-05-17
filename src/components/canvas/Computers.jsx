@@ -8,6 +8,7 @@ const Computers = ({ isMobile }) => {
 
   const computer = useGLTF('./desktop_pc/scene.gltf')
 
+  // Lighting and shadows for the 3d computer model
   return (
     <mesh>
       <hemisphereLight
@@ -34,6 +35,8 @@ const Computers = ({ isMobile }) => {
 
 const ComputersCanvas = () => {
 
+  // mobile sizing functionality to handle screen size
+
   const [isMobile, setIsMobile] = useState(false);
   useEffect(() => {
     const mediaQuery = window.matchMedia('(max-width: 500px)');
@@ -54,12 +57,14 @@ const ComputersCanvas = () => {
 
   }, [])
 
+  // Render canvas as well as camera position for 3d computer model
   return (
     <Canvas frameLoop='demand'
       shadows
       camera={{ position: [20, 3, 5], fov: 25 }}
       gl={{ preserveDrawingBuffer: true }}
     >
+
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
           enableZoom={false}

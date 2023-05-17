@@ -44,6 +44,7 @@ const Ball = (props) => {
   )
 }
 
+// Render canvas and loading animation
 const BallCanvas = ({ icon }) => {
   return (
     <Canvas
