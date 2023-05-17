@@ -10,10 +10,12 @@ const Ball = (props) => {
   const [decal] = useTexture([props.imgUrl]);
 
   return (
+    //floating ball effect for technologies
     <Float
       speed={1.75}
       rotationIntensity={1}
       floatIntensity={2}>
+    {/* direction of the light hitting canvas as well as shadows */}
       <ambientLight
         intensity={0.25} />
       <directionalLight
@@ -23,6 +25,7 @@ const Ball = (props) => {
         receiveShadow
         scale={2.75}>
         <icosahedronGeometry args={[1, 1]} />
+        {/* textures */}
         <meshStandardMaterial
           color="#fff8eb"
           polygonOffset
