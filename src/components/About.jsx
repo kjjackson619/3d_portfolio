@@ -2,9 +2,9 @@ import React from 'react';
 import Tilt from 'react-tilt';
 import { motion } from 'framer-motion';
 
-import { styles } from '../styles';
+import { styles } from '../styles.js';
 import { services } from '../constants';
-import { fadeIn, textVariant } from '../utils/motion';
+import { fadeIn, textVariant } from '../utils/motion.js';
 
 import { SectionWrapper } from '../hoc';
 
