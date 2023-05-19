@@ -6,6 +6,7 @@ export default defineConfig({
   plugins: [react()],
   base: '',
   build: {
+    main: 'src/main.jsx',
     rollupOptions: {
       output: {
         mimeTypes: {
