@@ -21,7 +21,6 @@ import osu from './company/osu.png';
 import expeditors from './company/expeditors.png';
 import fairchild from './company/fairchild.png';
 import tedTalk from "./company/tedtalk.png";
-import comingSoon from "./company/comingsoon.png";
 import shirt from '../assets/shirt.png';
 import aiImage from '../assets/aiImage.png';
 import shop from '../assets/shop.png';
@@ -46,7 +45,6 @@ export {
   threejs,
   logo,
   tedTalk,
-  comingSoon,
   express,
   materialize,
   osu,

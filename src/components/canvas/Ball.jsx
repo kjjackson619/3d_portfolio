@@ -6,7 +6,6 @@ import CanvasLoader from '../Loader';
 
 
 const Ball = (props) => {
-
   const [decal] = useTexture([props.imgUrl]);
 
   return (
@@ -14,7 +13,8 @@ const Ball = (props) => {
     <Float
       speed={1.75}
       rotationIntensity={1}
-      floatIntensity={2}>
+      floatIntensity={2}
+    >
     {/* direction of the light hitting canvas as well as shadows */}
       <ambientLight
         intensity={0.25} />
@@ -48,7 +48,7 @@ const Ball = (props) => {
 const BallCanvas = ({ icon }) => {
   return (
     <Canvas
-      frameLoop='demand'
+      frameloop='always'
       gl={{ preserveDrawingBuffer: true }}
     >
       <Suspense fallback={<CanvasLoader />}>

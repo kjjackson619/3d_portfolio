@@ -11,7 +11,6 @@ import {
     mongodb,
     threejs,
     tedTalk,
-    comingSoon,
     github,
     express,
     materialize,
