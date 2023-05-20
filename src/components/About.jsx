@@ -1,5 +1,5 @@
 import React from 'react';
-import Tilt from 'react-tilt';
+import { Tilt } from 'react-tilt';
 import { motion } from 'framer-motion';
 
 import { styles } from '../styles.js';
@@ -9,15 +9,17 @@ import { fadeIn, textVariant } from '../utils/motion.js';
 import { SectionWrapper } from '../hoc';
 
 const ServiceCard = ({ index, title, icon }) => {
-return(
+
+  const defaultOptions = {
+    max: 45,
+    scale: 1, 
+    speed: 450
+  };
+
+  return(
   <motion.div
     variants={fadeIn("right", "spring", 0.5 * index, 0.75)}>
-    <Tilt
-      options={{
-      max: 45,
-      scale: 1,
-      speed: 450,
-    }}>
+    <Tilt options={defaultOptions}>
       <div className="xs:w-[250px] w-full">
         <div className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card">
           <div className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col">
@@ -29,7 +31,7 @@ return(
       </div>
     </Tilt>
   </motion.div>
-);
+  );
 };
 
 const About = () => {
@@ -61,4 +63,4 @@ const About = () => {
   )
 }
 
-export default SectionWrapper(About, "about");
+export default SectionWrapper(About, "");
