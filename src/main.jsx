@@ -10,4 +10,3 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   </React.StrictMode>
 );
 
-console.log("working if accessed");
