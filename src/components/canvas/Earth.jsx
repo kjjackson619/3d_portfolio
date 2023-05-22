@@ -7,7 +7,7 @@ const Earth = () => {
 
   // Earth model scene with rotation
 
-  const earth = useGLTF('./planet/scene.gltf');
+  const earth = useGLTF('planet/scene.gltf');
 
   return (
     <primitive object={earth.scene}
