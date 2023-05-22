@@ -24,7 +24,7 @@ import {
     pinIt,
     pizza,
     mySQL,
-} from "../assets";
+} from "../../assets";
 
 export const navLinks = [
     {

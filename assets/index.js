@@ -15,18 +15,18 @@ import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
 import express from './tech/express.png';
 import materialize from './tech/materialize.png';
-import mySQL from '../assets/tech/mySQL.png';
+import mySQL from './tech/mySQL.png';
 
 import osu from './company/osu.png';
 import expeditors from './company/expeditors.png';
 import fairchild from './company/fairchild.png';
 import tedTalk from "./company/tedtalk.png";
-import shirt from '../assets/shirt.png';
-import aiImage from '../assets/aiImage.png';
-import shop from '../assets/shop.png';
-import book from '../assets/book.png';
-import pinIt from '../assets/pinIt.png';
-import pizza from '../assets/pizza.png';
+import shirt from './shirt.png';
+import aiImage from './aiImage.png';
+import shop from './shop.png';
+import book from './book.png';
+import pinIt from './pinIt.png';
+import pizza from './pizza.png';
 
 
 export {
