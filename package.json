@@ -1,6 +1,6 @@
 {
   "name": "3d_portfolio",
-  "homepage": "https://kjjackson619.github.io",
+  "homepage": "https://kevinjackson23.com",
   "private": true,
   "version": "0.1.0",
   "type": "module",
@@ -9,7 +9,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
