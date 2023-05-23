@@ -3,6 +3,7 @@ import backend from "./backend.png";
 import web from "./web.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import herobg from './herobg.png';
 
 import css from "./tech/css.png";
 import github from "./tech/github.png";
@@ -57,4 +58,5 @@ export {
   pinIt,
   pizza,
   mySQL,
+  herobg,
 };
