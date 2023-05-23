@@ -19,7 +19,7 @@ const Stars = (props) => {
     <group rotation={[0, 0, Math.PI / 4]}>
       <Points
         ref={ref}
-        position={sphere}
+        positions={sphere}
         stride={3}
         frustumCulled
         {...props}>
