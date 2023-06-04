@@ -3,6 +3,7 @@ import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Preload, useGLTF } from '@react-three/drei';
 import CanvasLoader from '../Loader.jsx';
 
+
 const Earth = () => {
 
   // Earth model scene with rotation
@@ -41,7 +42,9 @@ const EarthCanvas = () => {
       </Suspense>
 
       <Preload all />
+
     </Canvas>
+    
   )
 }
 

@@ -29,6 +29,8 @@ import book from './book.png';
 import pinIt from './pinIt.png';
 import pizza from './pizza.png';
 
+import spin from './spin.png';
+
 
 export {
   backend,
@@ -59,4 +61,5 @@ export {
   pizza,
   mySQL,
   herobg,
+  spin,
 };

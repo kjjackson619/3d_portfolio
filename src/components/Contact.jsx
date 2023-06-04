@@ -6,6 +6,7 @@ import { styles } from '../styles.js';
 import { EarthCanvas } from './canvas';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion.js';
+import {spin} from '../../assets';
 
 
 const Contact = () => {
@@ -122,6 +123,13 @@ const Contact = () => {
         <EarthCanvas />
 
       </motion.div>
+
+    
+      <img
+      className='w-[20px] h-[30px] mx-auto'
+      src={spin}
+      alt="spin me logo" />
+    
 
     </div>
   )

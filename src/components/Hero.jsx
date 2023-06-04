@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 
 import { styles } from '../styles.js';
 import { ComputersCanvas } from './canvas';
+import {spin} from '../../assets';
 
 const Hero = () => {
   return (
@@ -39,7 +40,15 @@ const Hero = () => {
             />
           </div>
         </a>
+
+         <img
+          className='w-[40px] h-[40px] opacity-30 p-1 m-1'
+          src={spin}
+          alt="spin me logo"  />
+
       </div>
+
+
     </section>
   )
 }
